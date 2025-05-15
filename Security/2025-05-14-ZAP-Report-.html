@@ -1,0 +1,2213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZAP by Checkmarx Scanning Report</title>
+<link
+	href="2025-05-14-ZAP-Report-/normalize/normalize.css" rel="stylesheet">
+<link
+	href="2025-05-14-ZAP-Report-/themes/original/main.css" rel="stylesheet">
+<link
+	href="2025-05-14-ZAP-Report-/themes/original/colors.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>ZAP by Checkmarx Scanning Report</h1>
+		<p>
+			<span>Generated with</span> <a href="https://zaproxy.org"><img
+				src="2025-05-14-ZAP-Report-/zap32x32.png" alt="The ZAP logo" class="zap-logo">ZAP</a>
+			<span>on Wed 14 May 2025, at 04:55:21</span>
+		</p>
+		<p>ZAP Version: 2.16.1</p>
+		<p>
+			ZAP by <a href="https://checkmarx.com/">Checkmarx</a>
+		</p>
+	</header>
+
+	<main>
+
+		<section id="contents" class="contents">
+			<h2>Contents</h2>
+			<nav>
+				<ol>
+					<li><a
+						href="#about-this-report">About this report</a>
+						<ol>
+							
+							<li><a
+								href="#report-parameters">Report parameters</a></li>
+						</ol></li>
+					<data-th-block>
+					<li><a
+						href="#summaries">Summaries</a>
+						<ol>
+							<li><a
+								href="#risk-confidence-counts">Alert counts by risk and confidence</a></li>
+							<li><a
+								href="#site-risk-counts">Alert counts by site and risk</a></li>
+							<li><a
+								href="#alert-type-counts">Alert counts by alert type</a></li>
+						</ol></li>
+					<li><a
+						href="#alerts">Alerts</a>
+						<ol>
+							
+							 
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-2-confidence-3"><span>Risk</span>=<span
+									class="risk-level">Medium</span>, <span>Confidence</span>=<span
+									class="confidence-level">High</span> <span>(1)</span></a></li>
+							
+							<li><a
+								href="#alerts--risk-2-confidence-2"><span>Risk</span>=<span
+									class="risk-level">Medium</span>, <span>Confidence</span>=<span
+									class="confidence-level">Medium</span> <span>(1)</span></a></li>
+							
+							
+							  
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-1-confidence-3"><span>Risk</span>=<span
+									class="risk-level">Low</span>, <span>Confidence</span>=<span
+									class="confidence-level">High</span> <span>(1)</span></a></li>
+							
+							<li><a
+								href="#alerts--risk-1-confidence-2"><span>Risk</span>=<span
+									class="risk-level">Low</span>, <span>Confidence</span>=<span
+									class="confidence-level">Medium</span> <span>(4)</span></a></li>
+							
+							
+							  
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-0-confidence-3"><span>Risk</span>=<span
+									class="risk-level">Informational</span>, <span>Confidence</span>=<span
+									class="confidence-level">High</span> <span>(1)</span></a></li>
+							
+							<li><a
+								href="#alerts--risk-0-confidence-2"><span>Risk</span>=<span
+									class="risk-level">Informational</span>, <span>Confidence</span>=<span
+									class="confidence-level">Medium</span> <span>(1)</span></a></li>
+							
+							
+							  
+						</ol></li>
+					<li><a
+						href="#appendix">Appendix</a>
+						<ol>
+							<li><a
+								href="#alert-types">Alert types</a></li>
+						</ol></li>
+					</data-th-block>
+				</ol>
+			</nav>
+		</section>
+
+		<section
+			id="about-this-report" class="about-this-report">
+			<h2>About this report</h2>
+
+			
+
+			<section
+				id="report-parameters">
+				<h3>Report parameters</h3>
+				<div class="report-parameters--container">
+					<h4>Contexts</h4>
+					
+					
+					<p>No contexts were selected, so all contexts were included by default.</p>
+					  
+
+					<h4>Sites</h4>
+					
+					<p>The following sites were included:</p>
+					<ul class="sites-list">
+						<li><span class="site">http://localhost:8080</span></li>
+					</ul>
+					
+					<p>(If no sites were selected, all sites were included by default.)</p>
+					<p>An included site must also be within one of the included contexts for its data to be included in the report.</p>
+
+					<h4>Risk levels</h4>
+					<p>
+						<span>Included</span>:
+						 
+						<span class="included-risk-codes"><span class="risk-level">High</span>, <span class="risk-level">Medium</span>, <span class="risk-level">Low</span>, <span class="risk-level">Informational</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						 <span>None</span>
+						
+					</p>
+
+					<h4>Confidence levels</h4>
+					<p>
+						<span>Included</span>:
+						
+						
+						<span class="included-confidence-codes"><span class="confidence-level">User Confirmed</span>, <span class="confidence-level">High</span>, <span class="confidence-level">Medium</span>, <span class="confidence-level">Low</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						
+						
+						<span class="included-confidence-codes"> <span class="confidence-level">User Confirmed</span>, <span class="confidence-level">High</span>, <span class="confidence-level">Medium</span>, <span class="confidence-level">Low</span>, <span class="confidence-level">False Positive</span></span>
+					</p>
+				</div>
+			</section>
+		</section>
+
+		
+		<section>
+			
+		</section>
+		
+		<section id="summaries" class="summaries">
+			<h2>Summaries</h2>
+
+			<section
+				id="risk-confidence-counts">
+				<h3>Alert counts by risk and confidence</h3>
+				<table class="risk-confidence-counts-table">
+					<caption>
+						<p>This table shows the number of alerts for each level of risk and confidence included in the report.</p>
+						<p>(The percentages in brackets represent the count as a percentage of the total number of alerts included in the report, rounded to one decimal place.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col
+							style="width: 14.0%"><col
+							style="width: 14.0%"><col
+							style="width: 14.0%"><col
+							style="width: 14.0%">
+						<col style="width: 14.0%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup"
+								colspan="5">Confidence</th>
+						</tr>
+						<tr>
+							<th scope="col">User Confirmed</th>
+							<th scope="col">High</th>
+							<th scope="col">Medium</th>
+							<th scope="col">Low</th>
+							<th scope="col">Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup"
+								rowspan="5">Risk</th>
+							<th scope="row">High</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Medium</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(11.1%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(11.1%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>2</span><br> <span class="additional-info-percentages">(22.2%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Low</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(11.1%)</span></td>
+							<td><span>4</span><br> <span
+								class="additional-info-percentages">(44.4%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>5</span><br> <span class="additional-info-percentages">(55.6%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Informational</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(11.1%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(11.1%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>2</span><br> <span class="additional-info-percentages">(22.2%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row">Total</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(33.3%)</span></td>
+							<td><span>6</span><br> <span
+								class="additional-info-percentages">(66.7%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>9</span><br> <span
+								class="additional-info-percentages">(100%)</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section
+				id="site-risk-counts">
+				<h3>Alert counts by site and risk</h3>
+				<table class="site-risk-counts-table">
+					<caption>
+						<p>This table shows, for each site for which one or more alerts were raised, the number of alerts raised at each risk level.</p>
+						<p>Alerts with a confidence level of &quot;False Positive&quot; have been excluded from these counts.</p>
+						<p>(The numbers in brackets are the number of alerts raised for the site at or above that risk level.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col
+							style="width: 16.25%"><col
+							style="width: 16.25%"><col
+							style="width: 16.25%"><col
+							style="width: 16.25%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup" colspan="4">Risk</th>
+						</tr>
+						<tr>
+							<th scope="col">
+								<span>High</span><br>  <span
+									class="additional-info-percentages">(= High)</span>  
+							</th>
+							<th scope="col">
+								<span>Medium</span><br>   <span
+									class="additional-info-percentages">(&gt;= Medium)</span> 
+							</th>
+							<th scope="col">
+								<span>Low</span><br>   <span
+									class="additional-info-percentages">(&gt;= Low)</span> 
+							</th>
+							<th scope="col">
+								<span>Informational</span><br>   <span
+									class="additional-info-percentages">(&gt;= Informational)</span> 
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup"
+								rowspan="1">Site</th>
+							<th scope="row">http://localhost:8080</th>
+							
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0)</span></td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(2)</span></td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(7)</span></td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(9)</span></td>
+							
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section
+				id="alert-type-counts">
+				<h3>Alert counts by alert type</h3>
+				<table class="alert-type-counts-table">
+					<caption>
+						<p>This table shows the number of alerts of each alert type, together with the alert type&#39;s risk level.</p>
+						<p>(The percentages in brackets represent each count as a percentage, rounded to one decimal place, of the total number of alerts included in this report.)</p>
+					</caption>
+					<thead>
+						<tr>
+							<th scope="col">Alert type</th>
+							<th scope="col">Risk</th>
+							<th scope="col">Count</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-0">Content Security Policy (CSP) Header Not Set</a></th>
+							<td class="risk-level">Medium</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(55.6%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-1">Missing Anti-clickjacking Header</a></th>
+							<td class="risk-level">Medium</td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(33.3%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-2">Big Redirect Detected (Potential Sensitive Information Leak)</a></th>
+							<td class="risk-level">Low</td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(22.2%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-3">Cookie No HttpOnly Flag</a></th>
+							<td class="risk-level">Low</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(55.6%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-4">Server Leaks Information via &quot;X-Powered-By&quot; HTTP Response Header Field(s)</a></th>
+							<td class="risk-level">Low</td>
+							<td><span>7</span><br> <span
+								class="additional-info-percentages">(77.8%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-5">Server Leaks Version Information via &quot;Server&quot; HTTP Response Header Field</a></th>
+							<td class="risk-level">Low</td>
+							<td><span>11</span><br> <span
+								class="additional-info-percentages">(122.2%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-6">X-Content-Type-Options Header Missing</a></th>
+							<td class="risk-level">Low</td>
+							<td><span>7</span><br> <span
+								class="additional-info-percentages">(77.8%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-7">Authentication Request Identified</a></th>
+							<td class="risk-level">Informational</td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(11.1%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-8">Session Management Response Identified</a></th>
+							<td class="risk-level">Informational</td>
+							<td><span>6</span><br> <span
+								class="additional-info-percentages">(66.7%)</span></td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<th scope="row">Total</th>
+							<td></td>
+							<td>9</td>
+						</tr>
+					</tfoot>
+				</table>
+			</section>
+		</section>
+
+		<section id="alerts" class="alerts">
+			<h2>Alerts</h2>
+			<ol>
+				
+				 
+				 
+				
+				
+				<li id="alerts--risk-2-confidence-3">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Medium</span>, <span>Confidence</span>=<span
+							class="confidence-level">High</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8080</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-0">Content Security Policy (CSP) Header Not Set</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8080/sitemap.xml</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/693.html">CWE-693</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (240 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8080/sitemap.xml HTTP/1.1
+host: localhost:8080
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (234 bytes)</summary>
+				
+				<pre><code>HTTP/1.0 404 Not Found
+Date: Wed, 14 May 2025 01:46:22 GMT
+Server: Apache/2.4.46 (Unix)
+X-Powered-By: PHP/7.3.21
+Cache-Control: no-cache, private
+Content-Length: 1552
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1552 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;utf-8&quot;&gt;
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+
+        &lt;title&gt;Not Found&lt;/title&gt;
+
+        &lt;!-- Fonts --&gt;
+        &lt;link rel=&quot;dns-prefetch&quot; href=&quot;//fonts.gstatic.com&quot;&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; rel=&quot;stylesheet&quot;&gt;
+
+        &lt;!-- Styles --&gt;
+        &lt;style&gt;
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: &#39;Nunito&#39;, sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class=&quot;flex-center position-ref full-height&quot;&gt;
+            &lt;div class=&quot;code&quot;&gt;
+                404            &lt;/div&gt;
+
+            &lt;div class=&quot;message&quot; style=&quot;padding: 10px;&quot;&gt;
+                Not Found            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-2-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Medium</span>, <span>Confidence</span>=<span
+							class="confidence-level">Medium</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8080</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-1">Missing Anti-clickjacking Header</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8080</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/11-Client-side_Testing/09-Testing_for_Clickjacking">WSTG-v42-CLNT-09</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/1021.html">CWE-1021</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The response does not protect against &#39;ClickJacking&#39; attacks. It should include either Content-Security-Policy with &#39;frame-ancestors&#39; directive or X-Frame-Options.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (228 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8080 HTTP/1.1
+host: localhost:8080
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (1083 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 01:46:22 GMT
+Server: Apache/2.4.46 (Unix)
+X-Powered-By: PHP/7.3.21
+Cache-Control: no-cache, private
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IktjU01HZlNiNlpQWEZmcDNOSklGeGc9PSIsInZhbHVlIjoiY0xuT0JZR2duUEF1SW9iL1NZdlRnNVlOZWJtWnQvNkRVcVE1TUMyVE5PRFRwODE0MHJkZHJpNEVwNndxbVA5cmJDL3hJOExCT1o0SDB2a0dSeWI1WVBFU2U0R3hYVmovbTlBY1l5T3RZTnpPR3k5R1lsdWFxKzRCZ1VEVFRJazUiLCJtYWMiOiI5NjI4NTg4OTFjNzgyNGJlYmM3ZDI4NjlhZGUxMzgxZDY1ODAzMzU3MDE5NmM1NDRlNTM3ZDlhZjg3Yjc2OWMxIn0%3D; expires=Wed, 14-May-2025 03:46:23 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IkMrSEhucU9ub2dpTXk2MVNnYmhkaHc9PSIsInZhbHVlIjoiWkJKemZ6eUVFbFJ5Rm5XV2I5ZGZZUFgxSGMycVp2R0tyaXR4WXBXbkx2YS9FcWZMTEFOWm4rZEZzNS9YMmpxVTZmOGZEZnlDbVphSjlXSEhJenZ6ZkYveEdpeVB1L2xNUi9MYWgrejVOM2E4R29wWXJFRTZqY1J0VTZjUHJxSzQiLCJtYWMiOiJiZmViYmRlMDRlNDBlMjFiYjhiOWU1NGEwYzdlZDIxMzRhZDdiNzAwMDRkZGEwYTQzODFjODJkMDE0YjA1YTE0In0%3D; expires=Wed, 14-May-2025 03:46:23 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Content-Length: 2802
+Content-Type: text/html; charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (2802 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;
+  &lt;head&gt;
+    &lt;base href=&quot;http://localhost:8080/&quot; /&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;meta http-equiv=&quot;x-ua-compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;
+    &lt;title&gt;Monica – personal relationship manager&lt;/title&gt;
+
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Open+Sans:400,600&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;http://localhost:8080/css/app-ltr.css?id=3656924c5fce352ba736&quot;&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;Monica is a tool to manage your interactions with your loved ones, friends, and family.&quot;&gt;
+    &lt;link rel=&quot;author&quot; href=&quot;@djaiss&quot;&gt;
+    &lt;meta property=&quot;og:title&quot; content=&quot;Have better relations with your loved ones. Free Online CRM for friends and family.&quot; /&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;img/favicon.png&quot;&gt;
+  &lt;/head&gt;
+
+    &lt;body class=&quot;marketing register&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12 col-md-6 offset-md-3 offset-md-3-right&quot;&gt;
+
+          &lt;div class=&quot;signup-box&quot;&gt;
+            &lt;div class=&quot;dt w-100&quot;&gt;
+              &lt;div class=&quot;dtc tc&quot;&gt;
+                &lt;img src=&quot;img/monica.svg&quot; width=&quot;97&quot; height=&quot;88&quot; alt=&quot;&quot;&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;h2&gt;Login to your account&lt;/h2&gt;
+
+                                                
+            &lt;form action=&quot;login&quot; method=&quot;post&quot;&gt;
+              &lt;input type=&quot;hidden&quot; name=&quot;_token&quot; value=&quot;97ldLhdL4g3QrZFmJ2Xwa5rGRO307fpwseHGrEGM&quot;&gt;
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
+                &lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;email&quot; name=&quot;email&quot; value=&quot;&quot; required autocomplete=&quot;email&quot; autofocus&gt;
+              &lt;/div&gt;
+
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label for=&quot;password&quot;&gt;Password&lt;/label&gt;
+                &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;password&quot; name=&quot;password&quot; required autocomplete=&quot;current-password&quot;&gt;
+              &lt;/div&gt;
+
+              &lt;div class=&quot;form-group actions&quot;&gt;
+                &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;Login&lt;/button&gt;
+              &lt;/div&gt;
+
+              &lt;div class=&quot;checkbox&quot;&gt;
+                &lt;label for=&quot;remember&quot;&gt;
+                  &lt;input type=&quot;checkbox&quot; name=&quot;remember&quot; id=&quot;remember&quot; checked&gt;&amp;nbsp;Remember Me
+                &lt;/label&gt;
+              &lt;/div&gt;
+
+              &lt;div class=&quot;form-group links&quot;&gt;
+                &lt;ul&gt;
+                  &lt;li&gt;Forget your password?&amp;nbsp;&lt;a href=&quot;http://localhost:8080/password/reset&quot;&gt;Reset your password&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/div&gt;
+
+              &lt;div class=&quot;form-group links&quot;&gt;
+                &lt;ul&gt;
+                                  &lt;/ul&gt;
+              &lt;/div&gt;
+
+            &lt;/form&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>x-frame-options</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Modern Web browsers support the Content-Security-Policy and X-Frame-Options HTTP headers. Ensure one of them is set on all web pages returned by your site/app.</p>
+
+<p>If you expect the page to be framed only by pages on your server (e.g. it&#39;s part of a FRAMESET) then you&#39;ll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy&#39;s &quot;frame-ancestors&quot; directive.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				
+				  
+				 
+				
+				
+				<li id="alerts--risk-1-confidence-3">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Low</span>, <span>Confidence</span>=<span
+							class="confidence-level">High</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8080</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-5">Server Leaks Version Information via &quot;Server&quot; HTTP Response Header Field</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8080/robots.txt</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/02-Fingerprint_Web_Server">WSTG-v42-INFO-02</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/497.html">CWE-497</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The web/application server is leaking version information via the &quot;Server&quot; HTTP response header. Access to such information may facilitate attackers identifying other vulnerabilities your web/application server is subject to.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (239 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8080/robots.txt HTTP/1.1
+host: localhost:8080
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (226 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 01:46:22 GMT
+Server: Apache/2.4.46 (Unix)
+Last-Modified: Thu, 27 Aug 2020 21:44:52 GMT
+ETag: &quot;18-5ade2d89dfd00&quot;
+Accept-Ranges: bytes
+Content-Length: 24
+Content-Type: text/plain
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (24 bytes)</summary>
+				
+				<pre><code>User-agent: *
+Disallow:
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>Apache/2.4.46 (Unix)</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that your web server, application server, load balancer, etc. is configured to suppress the &quot;Server&quot; header or provide generic details.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-1-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Low</span>, <span>Confidence</span>=<span
+							class="confidence-level">Medium</span> <span>(4)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8080</span> <span>(4)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-2">Big Redirect Detected (Potential Sensitive Information Leak)</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">POST http://localhost:8080/password/email</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Webpage_Content_for_Information_Leakage">WSTG-v42-INFO-05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure.html">OWASP_2017_A03</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A04_2021-Insecure_Design/">OWASP_2021_A04</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/201.html">CWE-201</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The server has responded with a redirect that seems to provide a large response. This may indicate that although the server sent a redirect it also responded with body content (which may include sensitive details, PII, etc.).</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>Location header URI length: 36 [http://localhost:8080/password/reset].</p>
+
+<p>Predicted response size: 336.</p>
+
+<p>Response Body Length: 390.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (1059 bytes)</summary>
+				
+				<pre><code>POST http://localhost:8080/password/email HTTP/1.1
+host: localhost:8080
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+content-type: application/x-www-form-urlencoded
+referer: http://localhost:8080/password/reset
+content-length: 75
+Cookie: XSRF-TOKEN=eyJpdiI6InEyNEhoRStHZk9zUi9IUEc4ZmFjcFE9PSIsInZhbHVlIjoiNW5PZ1l1bjN4aUNxZUF6UlpOYTdKZTZncXhKT2NzcGdON3lmaVJsaGtCaDFzSWgzUWhwcTV2SUkxSiswcUNlTnF4c0cvMHRaWFlxY3lHSklXWHVQMVgyZUViU0laNE56U1JWaU1WQXRLcjR4elgzR2o3ZnhLN1hCY25RZ2I4MC8iLCJtYWMiOiIzZjBjMjQwZDkwYTNkZmE1ZTFlNzg4ZDQ0OWRlNmI1MTFiYmE4MjQzNmNiOGRkNzk4NDJiZjRlN2IzZWY2MmNmIn0%3D; laravel_session=eyJpdiI6IkxEMUttdFNacW9mUmM5eGJkNXZzNXc9PSIsInZhbHVlIjoiZzFkUUQ1TWpkL21ybEJweXNORG9ialpYaFhJaEF5dFdVbFRZY29UeFNmTnlxWHBVN2pTVmZEbFlOcURsL3pJeVh3a1N5QW93cWd1c1JJQlo2M2xENm5uRVlrSEdHbWRQVGpkamtHN0hZWlU2dTVXUjliM2JSNm1LY2gzNGxXdUgiLCJtYWMiOiIwYTkyODFhMWIwZDVhMWVhMmYwNTY1NjU5NTNhMjlkYzk0OWVjNzJmMTFhYjEzMTRiNDE3NzEwNWMzYTVkNDg3In0%3D
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (75 bytes)</summary>
+				
+				<pre><code>_token=97ldLhdL4g3QrZFmJ2Xwa5rGRO307fpwseHGrEGM&amp;email=zaproxy%40example.com</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (1133 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 302 Found
+Date: Wed, 14 May 2025 01:46:23 GMT
+Server: Apache/2.4.46 (Unix)
+X-Powered-By: PHP/7.3.21
+Cache-Control: no-cache, private
+Location: http://localhost:8080/password/reset
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IkxQalNSMG9Pa0ZydEVWaTYwZW5pNHc9PSIsInZhbHVlIjoidUdqUkxONVpBdm1rUC9HeWJlam0xbm1sbndjTzlKd1N0NExPTkVHZ3A0Z1N6aWNGazl4bVZxTVVQcmJBNitVTVFFclN5R0krcTA3Q0VjR0tYWjN6MUphc1Z2TnJjUUtBUDNlS0lqM1poWUxlSFZxV1Rnc3RBbGtrZEZ6K2dkcDEiLCJtYWMiOiJlMmU3MDFkZDcxMGNkMzNlZjQxNjI0ZGE3ODMzMDEzNjRmYzA5NzllMTY4MGNjZWVhZmU4ZTgwZjhiMzIxOTAzIn0%3D; expires=Wed, 14-May-2025 03:46:23 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IlZLeWNuVmIrc0YvbXpwVVg4aWZ4T1E9PSIsInZhbHVlIjoiaGx3cXJqSWwzTlZiZ1dzVWh0Nkh4QUhIVlFwT1BOajkvVEtGNkNWNUJJZjFScnRxd1NHQzdZTm5qVmtSeUFMdERrZkFUVWNmQzh5QVU2U29VWE9tUE9rSHZlczlNNUFxQXFNTVF0U2VaQW01dm9Xa0RzaHFhTktwWHdWLzFQaW0iLCJtYWMiOiJlMDdiNGYxMTJmMGI3Y2MxMDEwNDg1Mjg4NmEzNThhZTBiZmRiNzVmOTJkODU2ZWZjODAyNmI0OGQyYTkzNjI4In0%3D; expires=Wed, 14-May-2025 03:46:23 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Content-Length: 390
+Content-Type: text/html; charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (390 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;UTF-8&quot; /&gt;
+        &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=&#39;http://localhost:8080/password/reset&#39;&quot; /&gt;
+
+        &lt;title&gt;Redirecting to http://localhost:8080/password/reset&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        Redirecting to &lt;a href=&quot;http://localhost:8080/password/reset&quot;&gt;http://localhost:8080/password/reset&lt;/a&gt;.
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that no sensitive information is leaked via redirect responses. Redirect responses should have almost no content.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-3">Cookie No HttpOnly Flag</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8080</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/1004.html">CWE-1004</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes">WSTG-v42-SESS-02</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (228 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8080 HTTP/1.1
+host: localhost:8080
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (1083 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 01:46:22 GMT
+Server: Apache/2.4.46 (Unix)
+X-Powered-By: PHP/7.3.21
+Cache-Control: no-cache, private
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IktjU01HZlNiNlpQWEZmcDNOSklGeGc9PSIsInZhbHVlIjoiY0xuT0JZR2duUEF1SW9iL1NZdlRnNVlOZWJtWnQvNkRVcVE1TUMyVE5PRFRwODE0MHJkZHJpNEVwNndxbVA5cmJDL3hJOExCT1o0SDB2a0dSeWI1WVBFU2U0R3hYVmovbTlBY1l5T3RZTnpPR3k5R1lsdWFxKzRCZ1VEVFRJazUiLCJtYWMiOiI5NjI4NTg4OTFjNzgyNGJlYmM3ZDI4NjlhZGUxMzgxZDY1ODAzMzU3MDE5NmM1NDRlNTM3ZDlhZjg3Yjc2OWMxIn0%3D; expires=Wed, 14-May-2025 03:46:23 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6IkMrSEhucU9ub2dpTXk2MVNnYmhkaHc9PSIsInZhbHVlIjoiWkJKemZ6eUVFbFJ5Rm5XV2I5ZGZZUFgxSGMycVp2R0tyaXR4WXBXbkx2YS9FcWZMTEFOWm4rZEZzNS9YMmpxVTZmOGZEZnlDbVphSjlXSEhJenZ6ZkYveEdpeVB1L2xNUi9MYWgrejVOM2E4R29wWXJFRTZqY1J0VTZjUHJxSzQiLCJtYWMiOiJiZmViYmRlMDRlNDBlMjFiYjhiOWU1NGEwYzdlZDIxMzRhZDdiNzAwMDRkZGEwYTQzODFjODJkMDE0YjA1YTE0In0%3D; expires=Wed, 14-May-2025 03:46:23 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Content-Length: 2802
+Content-Type: text/html; charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (2802 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;
+  &lt;head&gt;
+    &lt;base href=&quot;http://localhost:8080/&quot; /&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;meta http-equiv=&quot;x-ua-compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;
+    &lt;title&gt;Monica – personal relationship manager&lt;/title&gt;
+
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Open+Sans:400,600&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;http://localhost:8080/css/app-ltr.css?id=3656924c5fce352ba736&quot;&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;Monica is a tool to manage your interactions with your loved ones, friends, and family.&quot;&gt;
+    &lt;link rel=&quot;author&quot; href=&quot;@djaiss&quot;&gt;
+    &lt;meta property=&quot;og:title&quot; content=&quot;Have better relations with your loved ones. Free Online CRM for friends and family.&quot; /&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;img/favicon.png&quot;&gt;
+  &lt;/head&gt;
+
+    &lt;body class=&quot;marketing register&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12 col-md-6 offset-md-3 offset-md-3-right&quot;&gt;
+
+          &lt;div class=&quot;signup-box&quot;&gt;
+            &lt;div class=&quot;dt w-100&quot;&gt;
+              &lt;div class=&quot;dtc tc&quot;&gt;
+                &lt;img src=&quot;img/monica.svg&quot; width=&quot;97&quot; height=&quot;88&quot; alt=&quot;&quot;&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;h2&gt;Login to your account&lt;/h2&gt;
+
+                                                
+            &lt;form action=&quot;login&quot; method=&quot;post&quot;&gt;
+              &lt;input type=&quot;hidden&quot; name=&quot;_token&quot; value=&quot;97ldLhdL4g3QrZFmJ2Xwa5rGRO307fpwseHGrEGM&quot;&gt;
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
+                &lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;email&quot; name=&quot;email&quot; value=&quot;&quot; required autocomplete=&quot;email&quot; autofocus&gt;
+              &lt;/div&gt;
+
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label for=&quot;password&quot;&gt;Password&lt;/label&gt;
+                &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;password&quot; name=&quot;password&quot; required autocomplete=&quot;current-password&quot;&gt;
+              &lt;/div&gt;
+
+              &lt;div class=&quot;form-group actions&quot;&gt;
+                &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;Login&lt;/button&gt;
+              &lt;/div&gt;
+
+              &lt;div class=&quot;checkbox&quot;&gt;
+                &lt;label for=&quot;remember&quot;&gt;
+                  &lt;input type=&quot;checkbox&quot; name=&quot;remember&quot; id=&quot;remember&quot; checked&gt;&amp;nbsp;Remember Me
+                &lt;/label&gt;
+              &lt;/div&gt;
+
+              &lt;div class=&quot;form-group links&quot;&gt;
+                &lt;ul&gt;
+                  &lt;li&gt;Forget your password?&amp;nbsp;&lt;a href=&quot;http://localhost:8080/password/reset&quot;&gt;Reset your password&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/div&gt;
+
+              &lt;div class=&quot;form-group links&quot;&gt;
+                &lt;ul&gt;
+                                  &lt;/ul&gt;
+              &lt;/div&gt;
+
+            &lt;/form&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>XSRF-TOKEN</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>Set-Cookie: XSRF-TOKEN</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that the HttpOnly flag is set for all cookies.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-4">Server Leaks Information via &quot;X-Powered-By&quot; HTTP Response Header Field(s)</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8080/sitemap.xml</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure.html">OWASP_2017_A03</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework">WSTG-v42-INFO-08</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/497.html">CWE-497</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The web/application server is leaking information via one or more &quot;X-Powered-By&quot; HTTP response headers. Access to such information may facilitate attackers identifying other frameworks/components your web application is reliant upon and the vulnerabilities such components may be subject to.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (240 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8080/sitemap.xml HTTP/1.1
+host: localhost:8080
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (234 bytes)</summary>
+				
+				<pre><code>HTTP/1.0 404 Not Found
+Date: Wed, 14 May 2025 01:46:22 GMT
+Server: Apache/2.4.46 (Unix)
+X-Powered-By: PHP/7.3.21
+Cache-Control: no-cache, private
+Content-Length: 1552
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1552 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;utf-8&quot;&gt;
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+
+        &lt;title&gt;Not Found&lt;/title&gt;
+
+        &lt;!-- Fonts --&gt;
+        &lt;link rel=&quot;dns-prefetch&quot; href=&quot;//fonts.gstatic.com&quot;&gt;
+        &lt;link href=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; rel=&quot;stylesheet&quot;&gt;
+
+        &lt;!-- Styles --&gt;
+        &lt;style&gt;
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: &#39;Nunito&#39;, sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class=&quot;flex-center position-ref full-height&quot;&gt;
+            &lt;div class=&quot;code&quot;&gt;
+                404            &lt;/div&gt;
+
+            &lt;div class=&quot;message&quot; style=&quot;padding: 10px;&quot;&gt;
+                Not Found            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>X-Powered-By: PHP/7.3.21</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that your web server, application server, load balancer, etc. is configured to suppress &quot;X-Powered-By&quot; headers.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-6">X-Content-Type-Options Header Missing</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8080/robots.txt</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/693.html">CWE-693</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to &#39;nosniff&#39;. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.</p>
+
+<p>At &quot;High&quot; threshold this scan rule will not alert on client or server error responses.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (239 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8080/robots.txt HTTP/1.1
+host: localhost:8080
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (226 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 01:46:22 GMT
+Server: Apache/2.4.46 (Unix)
+Last-Modified: Thu, 27 Aug 2020 21:44:52 GMT
+ETag: &quot;18-5ade2d89dfd00&quot;
+Accept-Ranges: bytes
+Content-Length: 24
+Content-Type: text/plain
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (24 bytes)</summary>
+				
+				<pre><code>User-agent: *
+Disallow:
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>x-content-type-options</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to &#39;nosniff&#39; for all web pages.</p>
+
+<p>If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				
+				  
+				 
+				
+				
+				<li id="alerts--risk-0-confidence-3">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Informational</span>, <span>Confidence</span>=<span
+							class="confidence-level">High</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8080</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-7">Authentication Request Identified</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">POST http://localhost:8080/login</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The given request has been identified as an authentication request. The &#39;Other Info&#39; field contains a set of key=value lines which identify any relevant fields. If the request is in a context which has an Authentication Method set to &quot;Auto-Detect&quot; then this rule will change the authentication to match the request identified.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>userParam=email</p>
+
+<p>userValue=zaproxy@example.com</p>
+
+<p>passwordParam=password</p>
+
+<p>referer=http://localhost:8080</p>
+
+<p>csrfToken=_token</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (1036 bytes)</summary>
+				
+				<pre><code>POST http://localhost:8080/login HTTP/1.1
+host: localhost:8080
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+content-type: application/x-www-form-urlencoded
+referer: http://localhost:8080
+content-length: 100
+Cookie: XSRF-TOKEN=eyJpdiI6InEyNEhoRStHZk9zUi9IUEc4ZmFjcFE9PSIsInZhbHVlIjoiNW5PZ1l1bjN4aUNxZUF6UlpOYTdKZTZncXhKT2NzcGdON3lmaVJsaGtCaDFzSWgzUWhwcTV2SUkxSiswcUNlTnF4c0cvMHRaWFlxY3lHSklXWHVQMVgyZUViU0laNE56U1JWaU1WQXRLcjR4elgzR2o3ZnhLN1hCY25RZ2I4MC8iLCJtYWMiOiIzZjBjMjQwZDkwYTNkZmE1ZTFlNzg4ZDQ0OWRlNmI1MTFiYmE4MjQzNmNiOGRkNzk4NDJiZjRlN2IzZWY2MmNmIn0%3D; laravel_session=eyJpdiI6IkxEMUttdFNacW9mUmM5eGJkNXZzNXc9PSIsInZhbHVlIjoiZzFkUUQ1TWpkL21ybEJweXNORG9ialpYaFhJaEF5dFdVbFRZY29UeFNmTnlxWHBVN2pTVmZEbFlOcURsL3pJeVh3a1N5QW93cWd1c1JJQlo2M2xENm5uRVlrSEdHbWRQVGpkamtHN0hZWlU2dTVXUjliM2JSNm1LY2gzNGxXdUgiLCJtYWMiOiIwYTkyODFhMWIwZDVhMWVhMmYwNTY1NjU5NTNhMjlkYzk0OWVjNzJmMTFhYjEzMTRiNDE3NzEwNWMzYTVkNDg3In0%3D
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (100 bytes)</summary>
+				
+				<pre><code>_token=97ldLhdL4g3QrZFmJ2Xwa5rGRO307fpwseHGrEGM&amp;email=zaproxy%40example.com&amp;password=ZAP&amp;remember=on</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (1118 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 302 Found
+Date: Wed, 14 May 2025 01:46:23 GMT
+Server: Apache/2.4.46 (Unix)
+X-Powered-By: PHP/7.3.21
+Cache-Control: no-cache, private
+Location: http://localhost:8080
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IkJqaVhMS1pJcTlnNnpSbGZ3amhEQnc9PSIsInZhbHVlIjoiS1RNYkxGTTNHbGZPSlA3MWhvRnlQRGhKTzExWk02Wk5KYWpFaCtaR0dUeld6UWlrRXRBSHB2azF3eitma1NvWTU2cC82NDV2SG42Rloyc1VzU2dXNy84OG85bGF6WDAyZjhZeHVZQVBwSXZGT0w5cnJ5aVV4bHU1ZythVzgycXIiLCJtYWMiOiJmMzVjNDYwNmVlZjQ5MGU3NzhjZDQyNzNlODY3MTkwMjM4NWFlZDE2NjU2M2NhNGZjNjg3OGRhMDhlYTM1ZTA1In0%3D; expires=Wed, 14-May-2025 03:46:23 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6InFNYXpQcEM0K1JTbWRsTFBOTXRjcmc9PSIsInZhbHVlIjoiZ3ZVNVRFOGtBZnczZmFLUUhsNFQ1WlUvNFlNeEFiazFUR0hJUHZhY1RNeTlBRTJpTXhXY2czWkN0dHlrd0VpS0F1QlE0ZWhLelhNSlN0T1ExSlhRa2pNdTFMNUtYQmh1dmtXRjFHT2ovczlJVHAyRDdYdHhDVjhQWWtIbzZWYjYiLCJtYWMiOiIwOGU2ZTBjNDgxNjE2MDNlMTY5MTJiMDhlOGNjN2I0NmQzNDVhN2QxNTk4YTUyZTRmMzc4MWYzODFlNmE5NDQxIn0%3D; expires=Wed, 14-May-2025 03:46:23 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Content-Length: 330
+Content-Type: text/html; charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (330 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;UTF-8&quot; /&gt;
+        &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=&#39;http://localhost:8080&#39;&quot; /&gt;
+
+        &lt;title&gt;Redirecting to http://localhost:8080&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        Redirecting to &lt;a href=&quot;http://localhost:8080&quot;&gt;http://localhost:8080&lt;/a&gt;.
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>email</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>password</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-0-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Informational</span>, <span>Confidence</span>=<span
+							class="confidence-level">Medium</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8080</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-8">Session Management Response Identified</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8080</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The given response has been identified as containing a session management token. The &#39;Other Info&#39; field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to &quot;Auto-Detect&quot; then this rule will change the session management to use the tokens identified.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>cookie:laravel_session</p>
+
+<p>cookie:XSRF-TOKEN</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (228 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8080 HTTP/1.1
+host: localhost:8080
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (1083 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Wed, 14 May 2025 01:46:22 GMT
+Server: Apache/2.4.46 (Unix)
+X-Powered-By: PHP/7.3.21
+Cache-Control: no-cache, private
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IldsTTFYejdvUkFmMEVGUWk4ZmFBU2c9PSIsInZhbHVlIjoiWkdudFA4NThnOEFqVlpDVWZaT3huV1dzZWplVTBHMHFTUHhLdVM5SjNKdk1PZmtQeldIRXRnTUQ4SDBhWTdMSXM1bVBmS0lMWmxvc3JHb01tWGZhNXNzc3pWczN4cGdkZ3VQUFo3MjhwSW0ranFFNUtOQmx6OTI2eEpmeVo1U1AiLCJtYWMiOiIwMGMwYTlkZDY4YjQ0MTc3M2U0ZmM3NzkyMmEyYjZkZDFjOTI1ZWRmYTY4MGZiNzRlMTUxN2M2MTZjZWI5ODBkIn0%3D; expires=Wed, 14-May-2025 03:46:22 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6Inlqa1h1Nm5kQmgvRi9TRDhXLzBtRFE9PSIsInZhbHVlIjoiSkR3NEVTeVV6OTk5dWRNKzJQSVlKUXFKT2FDdnd6ZzFkd05uNldjeXBFT2pLMEZUSHZpQlo2YmFDN3psVXB2VjMrU3BtK0pqTkFXYWg0dnZYSEpXRlVrQ0F4NmlnUjlpbzN2V2k4ZVBRWnFLU1FSVzdRQXdPc2FSSUNpUkd3NEYiLCJtYWMiOiIwMDYyNTM1NjNmYzE5MDhhNWJlNmY1ZDYxYTM4MDNiZTRiMGMwMzNjOGIzMjUwMGE0MGI4MTZhODQ1YzQ3ZjBkIn0%3D; expires=Wed, 14-May-2025 03:46:22 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Content-Length: 2802
+Content-Type: text/html; charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (2802 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;
+  &lt;head&gt;
+    &lt;base href=&quot;http://localhost:8080/&quot; /&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;meta http-equiv=&quot;x-ua-compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;
+    &lt;title&gt;Monica – personal relationship manager&lt;/title&gt;
+
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Open+Sans:400,600&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;http://localhost:8080/css/app-ltr.css?id=3656924c5fce352ba736&quot;&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;Monica is a tool to manage your interactions with your loved ones, friends, and family.&quot;&gt;
+    &lt;link rel=&quot;author&quot; href=&quot;@djaiss&quot;&gt;
+    &lt;meta property=&quot;og:title&quot; content=&quot;Have better relations with your loved ones. Free Online CRM for friends and family.&quot; /&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;img/favicon.png&quot;&gt;
+  &lt;/head&gt;
+
+    &lt;body class=&quot;marketing register&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12 col-md-6 offset-md-3 offset-md-3-right&quot;&gt;
+
+          &lt;div class=&quot;signup-box&quot;&gt;
+            &lt;div class=&quot;dt w-100&quot;&gt;
+              &lt;div class=&quot;dtc tc&quot;&gt;
+                &lt;img src=&quot;img/monica.svg&quot; width=&quot;97&quot; height=&quot;88&quot; alt=&quot;&quot;&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;h2&gt;Login to your account&lt;/h2&gt;
+
+                                                
+            &lt;form action=&quot;login&quot; method=&quot;post&quot;&gt;
+              &lt;input type=&quot;hidden&quot; name=&quot;_token&quot; value=&quot;qkrGNKyUK4H7czIyPIMQrRxL3iSepxVMEuMPqUg1&quot;&gt;
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
+                &lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;email&quot; name=&quot;email&quot; value=&quot;&quot; required autocomplete=&quot;email&quot; autofocus&gt;
+              &lt;/div&gt;
+
+              &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label for=&quot;password&quot;&gt;Password&lt;/label&gt;
+                &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;password&quot; name=&quot;password&quot; required autocomplete=&quot;current-password&quot;&gt;
+              &lt;/div&gt;
+
+              &lt;div class=&quot;form-group actions&quot;&gt;
+                &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;Login&lt;/button&gt;
+              &lt;/div&gt;
+
+              &lt;div class=&quot;checkbox&quot;&gt;
+                &lt;label for=&quot;remember&quot;&gt;
+                  &lt;input type=&quot;checkbox&quot; name=&quot;remember&quot; id=&quot;remember&quot; checked&gt;&amp;nbsp;Remember Me
+                &lt;/label&gt;
+              &lt;/div&gt;
+
+              &lt;div class=&quot;form-group links&quot;&gt;
+                &lt;ul&gt;
+                  &lt;li&gt;Forget your password?&amp;nbsp;&lt;a href=&quot;http://localhost:8080/password/reset&quot;&gt;Reset your password&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/div&gt;
+
+              &lt;div class=&quot;form-group links&quot;&gt;
+                &lt;ul&gt;
+                                  &lt;/ul&gt;
+              &lt;/div&gt;
+
+            &lt;/form&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>laravel_session</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>eyJpdiI6Inlqa1h1Nm5kQmgvRi9TRDhXLzBtRFE9PSIsInZhbHVlIjoiSkR3NEVTeVV6OTk5dWRNKzJQSVlKUXFKT2FDdnd6ZzFkd05uNldjeXBFT2pLMEZUSHZpQlo2YmFDN3psVXB2VjMrU3BtK0pqTkFXYWg0dnZYSEpXRlVrQ0F4NmlnUjlpbzN2V2k4ZVBRWnFLU1FSVzdRQXdPc2FSSUNpUkd3NEYiLCJtYWMiOiIwMDYyNTM1NjNmYzE5MDhhNWJlNmY1ZDYxYTM4MDNiZTRiMGMwMzNjOGIzMjUwMGE0MGI4MTZhODQ1YzQ3ZjBkIn0%3D</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				
+				  
+			</ol>
+		</section>
+
+		<section id="appendix" class="appendix">
+			<h2>Appendix</h2>
+
+			<section id="alert-types" class="alert-types">
+				<h3>Alert types</h3>
+				<p class="alert-types-intro">This section contains additional information on the types of alerts in the report.</p>
+				<ol>
+					<li
+						id="alert-type-0">
+						<h4>Content Security Policy (CSP) Header Not Set</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10038/">Content Security Policy (CSP) Header Not Set</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy">https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</a></li>
+										<li><a
+											href="https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html">https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</a></li>
+										<li><a
+											href="https://www.w3.org/TR/CSP/">https://www.w3.org/TR/CSP/</a></li>
+										<li><a
+											href="https://w3c.github.io/webappsec-csp/">https://w3c.github.io/webappsec-csp/</a></li>
+										<li><a
+											href="https://web.dev/articles/csp">https://web.dev/articles/csp</a></li>
+										<li><a
+											href="https://caniuse.com/#feat=contentsecuritypolicy">https://caniuse.com/#feat=contentsecuritypolicy</a></li>
+										<li><a
+											href="https://content-security-policy.com/">https://content-security-policy.com/</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-1">
+						<h4>Missing Anti-clickjacking Header</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10020/">Anti-clickjacking Header</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/1021.html">1021</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-2">
+						<h4>Big Redirect Detected (Potential Sensitive Information Leak)</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10044/">Big Redirect Detected (Potential Sensitive Information Leak)</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/201.html">201</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							
+						</table>
+					</li>
+					<li
+						id="alert-type-3">
+						<h4>Cookie No HttpOnly Flag</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10010/">Cookie No HttpOnly Flag</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/1004.html">1004</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://owasp.org/www-community/HttpOnly">https://owasp.org/www-community/HttpOnly</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-4">
+						<h4>Server Leaks Information via &quot;X-Powered-By&quot; HTTP Response Header Field(s)</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10037/">Server Leaks Information via &quot;X-Powered-By&quot; HTTP Response Header Field(s)</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/497.html">497</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework">https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework</a></li>
+										<li><a
+											href="https://www.troyhunt.com/2012/02/shhh-dont-let-your-response-headers.html">https://www.troyhunt.com/2012/02/shhh-dont-let-your-response-headers.html</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-5">
+						<h4>Server Leaks Version Information via &quot;Server&quot; HTTP Response Header Field</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10036/">HTTP Server Response Header</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/497.html">497</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://httpd.apache.org/docs/current/mod/core.html#servertokens">https://httpd.apache.org/docs/current/mod/core.html#servertokens</a></li>
+										<li><a
+											href="https://learn.microsoft.com/en-us/previous-versions/msp-n-p/ff648552(v=pandp.10)">https://learn.microsoft.com/en-us/previous-versions/msp-n-p/ff648552(v=pandp.10)</a></li>
+										<li><a
+											href="https://www.troyhunt.com/shhh-dont-let-your-response-headers/">https://www.troyhunt.com/shhh-dont-let-your-response-headers/</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-6">
+						<h4>X-Content-Type-Options Header Missing</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10021/">X-Content-Type-Options Header Missing</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)">https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</a></li>
+										<li><a
+											href="https://owasp.org/www-community/Security_Headers">https://owasp.org/www-community/Security_Headers</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-7">
+						<h4>Authentication Request Identified</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10111/">Authentication Request Identified</a>)
+									</span>   
+								</td>
+							</tr>
+							
+							
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://www.zaproxy.org/docs/desktop/addons/authentication-helper/auth-req-id/">https://www.zaproxy.org/docs/desktop/addons/authentication-helper/auth-req-id/</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-8">
+						<h4>Session Management Response Identified</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10112/">Session Management Response Identified</a>)
+									</span>   
+								</td>
+							</tr>
+							
+							
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id">https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+				</ol>
+			</section>
+		</section>
+		 
+	</main>
+</body>
+</html>
+
+
+
