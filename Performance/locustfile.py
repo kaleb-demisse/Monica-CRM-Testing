@@ -8,8 +8,8 @@ class MonicaTasks(TaskSet):
 
     def login(self):
         self.client.post("/login", {
-            "email": "kalebdemisse4@gmail.com",
-            "password": "Kk@45482452"
+            "email": "replace_with_email",
+            "password": "replace_with_password"
         })
 
     @task(3)

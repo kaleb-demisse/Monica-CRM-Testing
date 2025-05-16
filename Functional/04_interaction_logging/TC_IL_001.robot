@@ -1,5 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
+Variables    ../variables.py
 
 *** Variables ***
 ${BROWSER}                   chrome
@@ -8,8 +9,8 @@ ${DASHBOARD_URL}            http://localhost:8080/dashboard
 ${CONTACTS_LIST_PAGE_URL}    http://localhost:8080/people
 ${ADD_CONTACT_FORM_URL}      http://localhost:8080/people/add
 
-${VALID_EMAIL}               kalebdemisse4@gmail.com
-${VALID_PASSWORD}            Kk@45482452
+${VALID_EMAIL}               ${EMAIL}
+${VALID_PASSWORD}            ${PASSWORD}
 ${INVALID_PASSWORD}          thisiswrongpassword123
 ${SAMPLE_FIRST_NAME}         Abebe
 ${SAMPLE_MIDDLE_NAME}        Kebede

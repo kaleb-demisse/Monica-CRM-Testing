@@ -1,5 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
+Variables    ../variables.py
 
 *** Variables ***
 ${BROWSER}                   chrome
@@ -8,8 +9,8 @@ ${DASHBOARD_URL}             http://localhost:8080/dashboard
 ${JOURNAL_PAGE_URL}          http://localhost:8080/journal
 ${JOURNAL_CREATE_URL}        http://localhost:8080/journal/add
 
-${VALID_EMAIL}               kalebdemisse4@gmail.com
-${VALID_PASSWORD}            Kk@45482452
+${VALID_EMAIL}               ${EMAIL}
+${VALID_PASSWORD}            ${PASSWORD}
 
 ${LOGIN_EMAIL_FIELD}         id=email
 ${LOGIN_PASSWORD_FIELD}      id=password
